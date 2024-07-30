@@ -1,0 +1,45 @@
+<div class="row" style="margin-top: 15px;">    
+    <div class="col-sm-12 col-md-6 col-lg-4" [ngStyle]="{marginBottom: '10px'}" *ngFor="let camiseta of camisetas">
+      <div class="card">
+        <div id="carrusel{{camiseta?.id}}" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../../../assets/{{camiseta?.imagen1}}" class="d-block w-100" />
+            </div>
+            <div class="carousel-item">
+              <img src="../../../assets/{{camiseta?.imagen2}}" class="d-block w-100" />
+            </div>            
+          </div>
+          <button class="carousel-control-prev" type="button" [attr.data-bs-target]="'#carrusel' + camiseta?.id" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" [attr.data-bs-target]="'#carrusel' + camiseta?.id" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{camiseta?.equipo}}
+            <img src="../../../assets/banderas/{{camiseta?.pais}}.png" style="float:right; border: #000000 2px solid" />
+          </h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{camiseta?.anho}}</h6>          
+        </div>
+        <ul class="list-group list-group-flush">          
+          <li class="list-group-item" *ngIf="camiseta?.equipacion != 'especial'">
+            <img *ngIf="camiseta?.marca != ''" src="../../../assets/logos/{{camiseta?.marca}}" style="float:right" />
+            {{camiseta?.equipacion}} equipación<br />Talla {{camiseta?.talla}}
+          </li>
+          <li class="list-group-item" *ngIf="camiseta?.equipacion == 'especial'">
+            <img *ngIf="camiseta?.marca != ''" src="../../../assets/logos/{{camiseta?.marca}}" style="float:right" />
+            Edición especial<br />Talla {{camiseta?.talla}}
+          </li>
+          <li class="list-group-item" *ngIf="camiseta?.nombre != ''">Nombre: {{camiseta?.nombre}}</li>
+          <li class="list-group-item" *ngIf="camiseta?.numero != ''">Número: {{camiseta?.numero}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-3" *ngIf="camisetas?.length == 0">
+      Lo sentimos, esta página no existe.
+    </div>
+  </div>
