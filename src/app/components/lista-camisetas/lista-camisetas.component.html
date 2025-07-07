@@ -26,9 +26,13 @@
           <h6 class="card-subtitle mb-2 text-muted">{{camiseta?.anho}}</h6>          
         </div>
         <ul class="list-group list-group-flush">          
-          <li class="list-group-item" *ngIf="camiseta?.equipacion != 'especial'">
+          <li class="list-group-item" *ngIf="camiseta?.equipacion != 'especial' && camiseta?.equipacion != 'portero'">
             <img *ngIf="camiseta?.marca != ''" src="../../../assets/logos/{{camiseta?.marca}}" style="float:right" />
             {{camiseta?.equipacion}} equipación<br />Talla {{camiseta?.talla}}
+          </li>
+          <li class="list-group-item" *ngIf="camiseta?.equipacion == 'portero'">
+            <img *ngIf="camiseta?.marca != ''" src="../../../assets/logos/{{camiseta?.marca}}" style="float:right" />
+            Equipación de portero<br />Talla {{camiseta?.talla}}
           </li>
           <li class="list-group-item" *ngIf="camiseta?.equipacion == 'especial'">
             <img *ngIf="camiseta?.marca != ''" src="../../../assets/logos/{{camiseta?.marca}}" style="float:right" />
