@@ -1,0 +1,156 @@
+[
+    {
+        "team": "España",
+        "brand": "Adidas",
+        "season": "Mundial 1994",
+        "number": 10,
+        "playerName": "Gonzalo A.L.",
+        "country": "",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/esp1-1.jpg",
+            "img/camisetas/esp1-2.jpg"
+        ]
+    },
+    {
+        "team": "España",
+        "brand": "Adidas",
+        "season": "Mundial 1998",
+        "number": 10,
+        "playerName": "Raúl",
+        "country": "",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/esp2-1.jpg",
+            "img/camisetas/esp2-2.jpg"
+        ]
+    },
+    {
+        "team": "España",
+        "brand": "Adidas",
+        "season": "Mundial 2010",
+        "number": 0,
+        "playerName": "",
+        "country": "",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/esp3-1.jpg",
+            "img/camisetas/esp3-2.jpg"
+        ]
+    },
+    {
+        "team": "España",
+        "brand": "Adidas",
+        "season": "Mundial 2014",
+        "number": 0,
+        "playerName": "",
+        "country": "",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/esp4-1.jpg",
+            "img/camisetas/esp4-2.jpg"
+        ]
+    },
+    {
+        "team": "España",
+        "brand": "Adidas",
+        "season": "Mundial 2018",
+        "number": 0,
+        "playerName": "",
+        "country": "",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/esp5-1.jpg",
+            "img/camisetas/esp5-2.jpg"
+        ]
+    },
+    {
+        "team": "Jaén Paraíso Interior F.S.",
+        "brand": "Luanvi",
+        "season": "2016-2017",
+        "number": 0,
+        "playerName": "",
+        "country": "España",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/jfs1-1.jpg",
+            "img/camisetas/jfs1-2.jpg"
+        ]
+    },
+    {
+        "team": "Real Madrid C.F.",
+        "brand": "Kelme",
+        "season": "1996-1997",
+        "number": 0,
+        "playerName": "",
+        "country": "España",
+        "kit": "2ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/rma1-1.jpg",
+            "img/camisetas/rma1-2.jpg"
+        ]
+    },
+    {
+        "team": "Real Madrid C.F.",
+        "brand": "Adidas",
+        "season": "2006-2007",
+        "number": 0,
+        "playerName": "",
+        "country": "España",
+        "kit": "2ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/rma2-1.jpg",
+            "img/camisetas/rma2-2.jpg"
+        ]
+    },
+    {
+        "team": "Real Madrid C.F.",
+        "brand": "Adidas",
+        "season": "2010-2011",
+        "number": 0,
+        "playerName": "",
+        "country": "España",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/rma3-1.jpg",
+            "img/camisetas/rma3-2.jpg"
+        ]
+    },
+    {
+        "team": "Real Madrid C.F.",
+        "brand": "Adidas",
+        "season": "2015-2016",
+        "number": 10,
+        "playerName": "Modrić",
+        "country": "España",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/rma4-1.jpg",
+            "img/camisetas/rma4-2.jpg"
+        ]
+    },
+    {
+        "team": "Real Madrid C.F.",
+        "brand": "Adidas",
+        "season": "2016-2017",
+        "number": 12,
+        "playerName": "Marcelo",
+        "country": "España",
+        "kit": "2ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/rma5-1.jpg",
+            "img/camisetas/rma5-2.jpg"
+        ]
+    }
+]

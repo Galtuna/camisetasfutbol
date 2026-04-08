@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Camisetas de Fútbol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>⚽ Gonzalo Altuna: Colección de Camisetas</h1>
+            <p>Explora mi colección de camisetas de fútbol</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Filtros y búsqueda -->
+            <div class="controls">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Buscar por equipo, marca, temporada, país, equipación, talla..."
+                    class="search-box"
+                >
+                <button id="resetBtn" class="reset-btn">Limpiar filtro</button>
+            </div>
+
+            <!-- Galería de camisetas -->
+            <div class="gallery" id="gallery">
+                <!-- Las camisetas se cargarán aquí con JavaScript -->
+            </div>
+
+            <!-- Mensaje cuando no hay resultados -->
+            <div id="noResults" class="no-results" style="display: none;">
+                <p>No se encontraron camisetas con esos criterios de búsqueda.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal para ver detalles -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-images">
+                    <img id="modalImage" src="" alt="Camiseta" class="modal-image">
+                    <div class="modal-thumbnails" id="modalThumbnails"></div>
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalTeam"></h2>
+                    <div class="modal-details">
+                        <p><strong>Marca:</strong> <span id="modalBrand"></span></p>
+                        <p><strong>Temporada:</strong> <span id="modalSeason"></span></p>
+                        <p id="modalCountryRow">
+                            <strong>País:</strong> <span id="modalCountry"></span>
+                        </p>
+                        <p><strong>Equipación:</strong> <span id="modalKit"></span></p>
+                        <p><strong>Talla:</strong> <span id="modalSize"></span></p>
+                        <p id="modalNumberRow">
+                            <strong>Número:</strong> <span id="modalNumber"></span>
+                        </p>
+                        <p id="modalNameRow" style="display: none;">
+                            <strong>Nombre del jugador:</strong> <span id="modalName"></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Colección de Camisetas de Fútbol. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
