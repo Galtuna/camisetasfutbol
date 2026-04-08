@@ -21,7 +21,7 @@
                 <input 
                     type="text" 
                     id="searchInput" 
-                    placeholder="Buscar por equipo, marca, temporada, país, equipación, talla..."
+                    placeholder="Buscar por equipo, marca, temporada, país..."
                     class="search-box"
                 >
                 <button id="resetBtn" class="reset-btn">Limpiar filtro</button>
@@ -31,6 +31,9 @@
             <div class="gallery" id="gallery">
                 <!-- Las camisetas se cargarán aquí con JavaScript -->
             </div>
+
+            <!-- Controles de paginación -->
+            <div class="pagination" id="pagination" style="display: none;"></div>
 
             <!-- Mensaje cuando no hay resultados -->
             <div id="noResults" class="no-results" style="display: none;">
@@ -70,8 +73,16 @@
         </div>
     </div>
 
+    <!-- Vista ampliada de imagen -->
+    <div id="imagePreview" class="image-preview" style="display: none;">
+        <span class="close-preview">&times;</span>
+        <button class="preview-arrow prev" aria-label="Imagen anterior">&#8249;</button>
+        <img id="previewImage" src="" alt="Vista ampliada de la camiseta">
+        <button class="preview-arrow next" aria-label="Siguiente imagen">&#8250;</button>
+    </div>
+
     <footer>
-        <p>&copy; 2026 Colección de Camisetas de Fútbol. Todos los derechos reservados.</p>
+        <p>&copy; 2026 Gonzalo Altuna: Colección de Camisetas de Fútbol. Todos los derechos reservados.</p>
     </footer>
 
     <script src="script.js"></script>

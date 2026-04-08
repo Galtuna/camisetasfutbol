@@ -68,25 +68,11 @@
             "img/camisetas/esp5-1.jpg",
             "img/camisetas/esp5-2.jpg"
         ]
-    },
-    {
-        "team": "Jaén Paraíso Interior F.S.",
-        "brand": "Luanvi",
-        "season": "2016-2017",
-        "number": 0,
-        "playerName": "",
-        "country": "España",
-        "kit": "1ª equipación",
-        "size": "L",
-        "images": [
-            "img/camisetas/jfs1-1.jpg",
-            "img/camisetas/jfs1-2.jpg"
-        ]
-    },
+    },    
     {
         "team": "Real Madrid C.F.",
         "brand": "Kelme",
-        "season": "1996-1997",
+        "season": "1996/97",
         "number": 0,
         "playerName": "",
         "country": "España",
@@ -100,7 +86,7 @@
     {
         "team": "Real Madrid C.F.",
         "brand": "Adidas",
-        "season": "2006-2007",
+        "season": "2006/07",
         "number": 0,
         "playerName": "",
         "country": "España",
@@ -114,7 +100,7 @@
     {
         "team": "Real Madrid C.F.",
         "brand": "Adidas",
-        "season": "2010-2011",
+        "season": "2010/11",
         "number": 0,
         "playerName": "",
         "country": "España",
@@ -128,7 +114,7 @@
     {
         "team": "Real Madrid C.F.",
         "brand": "Adidas",
-        "season": "2015-2016",
+        "season": "2015/16",
         "number": 10,
         "playerName": "Modrić",
         "country": "España",
@@ -142,7 +128,7 @@
     {
         "team": "Real Madrid C.F.",
         "brand": "Adidas",
-        "season": "2016-2017",
+        "season": "2016/17",
         "number": 12,
         "playerName": "Marcelo",
         "country": "España",
@@ -151,6 +137,482 @@
         "images": [
             "img/camisetas/rma5-1.jpg",
             "img/camisetas/rma5-2.jpg"
+        ]
+    },
+    {
+        "team": "Real Jaén C.F.",
+        "brand": "Cejudo",
+        "season": "2001/02",
+        "number": 0,
+        "playerName": "",
+        "country": "España",
+        "kit": "2ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/rja1-1.jpg",
+            "img/camisetas/rja1-2.jpg"
+        ]
+    },
+    {
+        "team": "Real Jaén C.F.",
+        "brand": "Joma",
+        "season": "2010/11",
+        "number": 0,
+        "playerName": "",
+        "country": "España",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/rja2-1.jpg",
+            "img/camisetas/rja2-2.jpg"
+        ]
+    },
+    {
+        "team": "Real Jaén C.F.",
+        "brand": "Mercury",
+        "season": "2019/20",
+        "number": 0,
+        "playerName": "",
+        "country": "España",
+        "kit": "2ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/rja3-1.jpg",
+            "img/camisetas/rja3-2.jpg"
+        ]
+    },
+    {
+        "team": "Real Jaén C.F.",
+        "brand": "Mercury",
+        "season": "2022/23",
+        "number": 0,
+        "playerName": "",
+        "country": "España",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/rja4-1.jpg",
+            "img/camisetas/rja4-2.jpg"
+        ]
+    },
+    {
+        "team": "Jaén Paraíso Interior F.S.",
+        "brand": "Luanvi",
+        "season": "2016/17",
+        "number": 0,
+        "playerName": "",
+        "country": "España",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/jfs1-1.jpg",
+            "img/camisetas/jfs1-2.jpg"
+        ]
+    },
+    {
+        "team": "Xerez C.D.",
+        "brand": "Adidas",
+        "season": "2024/25",
+        "number": 0,
+        "playerName": "",
+        "country": "España",
+        "kit": "2ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/xer1-1.jpg",
+            "img/camisetas/xer1-2.jpg"
+        ]
+    },
+    {
+        "team": "Cádiz C.F.",
+        "brand": "Macron",
+        "season": "2024/25",
+        "number": 0,
+        "playerName": "",
+        "country": "España",
+        "kit": "Portero",
+        "size": "L",
+        "images": [
+            "img/camisetas/cad1-1.jpg",
+            "img/camisetas/cad1-2.jpg"
+        ]
+    },
+    {
+        "team": "Real Betis Balompié",
+        "brand": "Hummel",
+        "season": "2023/24",
+        "number": 0,
+        "playerName": "",
+        "country": "España",
+        "kit": "Especial",
+        "size": "XL",
+        "images": [
+            "img/camisetas/bet1-1.jpg",
+            "img/camisetas/bet1-2.jpg"
+        ]
+    },
+    {
+        "team": "Granada C.F.",
+        "brand": "Nike",
+        "season": "2021/22",
+        "number": 0,
+        "playerName": "",
+        "country": "España",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/gra1-1.jpg",
+            "img/camisetas/gra1-2.jpg"
+        ]
+    },
+    {
+        "team": "R.C.D. Espanyol de Barcelona",
+        "brand": "Joma",
+        "season": "2015/16",
+        "number": 0,
+        "playerName": "",
+        "country": "España",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/rcd1-1.jpg",
+            "img/camisetas/rcd1-2.jpg"
+        ]
+    },
+    {
+        "team": "Everton F.C.",
+        "brand": "Umbro",
+        "season": "1996/98",
+        "number": 0,
+        "playerName": "",
+        "country": "Inglaterra",
+        "kit": "2ª equipación",
+        "size": "XL",
+        "images": [
+            "img/camisetas/eve1-1.jpg",
+            "img/camisetas/eve1-2.jpg"
+        ]
+    },
+    {
+        "team": "Queens Park Rangers F.C.",
+        "brand": "Lotto",
+        "season": "2008/09",
+        "number": 0,
+        "playerName": "",
+        "country": "Inglaterra",
+        "kit": "1ª equipación",
+        "size": "XL",
+        "images": [
+            "img/camisetas/qpr1-1.jpg",
+            "img/camisetas/qpr1-2.jpg"
+        ]
+    },
+    {
+        "team": "Chelsea F.C.",
+        "brand": "Adidas",
+        "season": "2011/12",
+        "number": 0,
+        "playerName": "",
+        "country": "Inglaterra",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/che1-1.jpg",
+            "img/camisetas/che1-2.jpg"
+        ]
+    },
+    {
+        "team": "Tottenham Hotspur F.C.",
+        "brand": "Under Armour",
+        "season": "2016/17",
+        "number": 0,
+        "playerName": "",
+        "country": "Inglaterra",
+        "kit": "1ª equipación",
+        "size": "XL",
+        "images": [
+            "img/camisetas/tot1-1.jpg",
+            "img/camisetas/tot1-2.jpg"
+        ]
+    },
+    {
+        "team": "Manchester United F.C.",
+        "brand": "Adidas",
+        "season": "2022/23",
+        "number": 18,
+        "playerName": "Casemiro",
+        "country": "Inglaterra",
+        "kit": "1ª equipación",
+        "size": "XL",
+        "images": [
+            "img/camisetas/man1-1.jpg",
+            "img/camisetas/man1-2.jpg"
+        ]
+    },
+    {
+        "team": "Sheffield F.C.",
+        "brand": "Joma",
+        "season": "2017/18",
+        "number": 0,
+        "playerName": "",
+        "country": "Inglaterra",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/she1-1.jpg",
+            "img/camisetas/she1-2.jpg"
+        ]
+    },
+    {
+        "team": "Charlton Athletic F.C.",
+        "brand": "Castore",
+        "season": "2023/24",
+        "number": 0,
+        "playerName": "",
+        "country": "Inglaterra",
+        "kit": "2ª equipación",
+        "size": "XL",
+        "images": [
+            "img/camisetas/cha1-1.jpg",
+            "img/camisetas/cha1-2.jpg"
+        ]
+    },
+    {
+        "team": "Wycombe Wanderers F.C.",
+        "brand": "Gambea",
+        "season": "2021/22",
+        "number": 10,
+        "playerName": "",
+        "country": "Inglaterra",
+        "kit": "Especial",
+        "size": "L",
+        "images": [
+            "img/camisetas/wyc1-1.jpg",
+            "img/camisetas/wyc1-2.jpg"
+        ]
+    },
+    {
+        "team": "Sporting C. Portugal",
+        "brand": "Puma",
+        "season": "2010/11",
+        "number": 0,
+        "playerName": "",
+        "country": "Portugal",
+        "kit": "2ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/spp1-1.jpg",
+            "img/camisetas/spp1-2.jpg"
+        ]
+    },
+    {
+        "team": "F.C. Vale Formoso",
+        "brand": "",
+        "season": "2017",
+        "number": 0,
+        "playerName": "",
+        "country": "Portugal",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/vfo1-1.jpg",
+            "img/camisetas/vfo1-2.jpg"
+        ]
+    },
+    {
+        "team": "A.C.F. Fiorentina",
+        "brand": "Lotto",
+        "season": "2008/09",
+        "number": 0,
+        "playerName": "",
+        "country": "Italia",
+        "kit": "1ª equipación",
+        "size": "XXL",
+        "images": [
+            "img/camisetas/fio1-1.jpg",
+            "img/camisetas/fio1-2.jpg"
+        ]
+    },
+    {
+        "team": "Grenoble Foot 38",
+        "brand": "Nike",
+        "season": "2009/10",
+        "number": 0,
+        "playerName": "",
+        "country": "Francia",
+        "kit": "2ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/gre1-1.jpg",
+            "img/camisetas/gre1-2.jpg"
+        ]
+    },
+    {
+        "team": "Hertha Berliner S.C.",
+        "brand": "Nike",
+        "season": "2006/07",
+        "number": 0,
+        "playerName": "",
+        "country": "Alemania",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/hbe1-1.jpg",
+            "img/camisetas/hbe1-2.jpg"
+        ]
+    },
+    {
+        "team": "Royal Antwerp F.C.",
+        "brand": "Umbro",
+        "season": "2000/01",
+        "number": 10,
+        "playerName": "",
+        "country": "Bélgica",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/ant1-1.jpg",
+            "img/camisetas/ant1-2.jpg"
+        ]
+    },
+    {
+        "team": "A.C. Sparta Praha",
+        "brand": "Nike",
+        "season": "2001/02",
+        "number": 0,
+        "playerName": "",
+        "country": "República Checa",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/spr1-1.jpg",
+            "img/camisetas/spr1-2.jpg"
+        ]
+    },
+    {
+        "team": "Dinamo Zagreb F.C.",
+        "brand": "Puma",
+        "season": "2011/13",
+        "number": 0,
+        "playerName": "",
+        "country": "Croacia",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/zag1-1.jpg",
+            "img/camisetas/zag1-2.jpg"
+        ]
+    },
+    {
+        "team": "F.C. København",
+        "brand": "Adidas",
+        "season": "2012/13",
+        "number": 0,
+        "playerName": "",
+        "country": "Dinamarca",
+        "kit": "2ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/cop1-1.jpg",
+            "img/camisetas/cop1-2.jpg"
+        ]
+    },
+    {
+        "team": "Samsunspor K.D.",
+        "brand": "Macron",
+        "season": "2020/21",
+        "number": 0,
+        "playerName": "",
+        "country": "Turquía",
+        "kit": "4ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/sam1-1.jpg",
+            "img/camisetas/sam1-2.jpg"
+        ]
+    },
+    {
+        "team": "New York Cosmos",
+        "brand": "Umbro",
+        "season": "1977 (réplica)",
+        "number": 10,
+        "playerName": "Pelé",
+        "country": "Estados Unidos",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/nyc2-1.jpg",
+            "img/camisetas/nyc2-2.jpg"
+        ]
+    },
+    {
+        "team": "New York Cosmos",
+        "brand": "Umbro",
+        "season": "2011/12",
+        "number": 0,
+        "playerName": "",
+        "country": "Estados Unidos",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/nyc1-1.jpg",
+            "img/camisetas/nyc1-2.jpg"
+        ]
+    },
+    {
+        "team": "Buriram United F.C.",
+        "brand": "",
+        "season": "2017",
+        "number": 0,
+        "playerName": "",
+        "country": "Tailandia",
+        "kit": "1ª equipación",
+        "size": "M",
+        "images": [
+            "img/camisetas/bur1-1.jpg",
+            "img/camisetas/bur1-2.jpg"
+        ]
+    },
+    {
+        "team": "Marruecos",
+        "brand": "Puma",
+        "season": "?",
+        "number": 9,
+        "playerName": "Morocco",
+        "country": "",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/mar1-1.jpg",
+            "img/camisetas/mar1-2.jpg"
+        ]
+    },
+    {
+        "team": "Camerún",
+        "brand": "Puma",
+        "season": "?",
+        "number": 0,
+        "playerName": "",
+        "country": "",
+        "kit": "2ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/cam1-1.jpg",
+            "img/camisetas/cam1-2.jpg"
+        ]
+    },
+    {
+        "team": "Islas Malvinas",
+        "brand": "Hope Glory",
+        "season": "?",
+        "number": 0,
+        "playerName": "",
+        "country": "",
+        "kit": "1ª equipación",
+        "size": "L",
+        "images": [
+            "img/camisetas/ima1-1.jpg",
+            "img/camisetas/ima1-2.jpg"
         ]
     }
 ]
