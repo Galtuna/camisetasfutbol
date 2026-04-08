@@ -1,15 +1,15 @@
 /* Variables de color */
 :root {
-    --primary-color: #0f1419;        /* Negro azulado oscuro */
-    --secondary-color: #1a2332;      /* Azul grisáceo */
-    --accent-color: #00d4aa;         /* Verde turquesa vibrante */
-    --accent-light: #26debd;         /* Verde turquesa claro */
-    --accent-hover: #00b894;         /* Verde turquesa oscuro para hover */
-    --text-color: #ffffff;           /* Blanco puro */
-    --text-secondary: #b8c5d6;       /* Gris azulado claro */
-    --border-color: #2d3748;         /* Gris azulado */
-    --card-bg: #1e293b;              /* Fondo de tarjetas */
-    --success-color: #48bb78;        /* Verde éxito */
+    --primary-color: #0d1a12;        /* Verde muy oscuro / césped nocturno */
+    --secondary-color: #15291d;      /* Verde bosque profundo */
+    --accent-color: #67c18b;         /* Verde hierba */
+    --accent-light: #a6dfb8;         /* Verde claro de césped */
+    --accent-hover: #4aae6c;         /* Verde intenso para hover */
+    --text-color: #f2f7f1;           /* Blanco suave */
+    --text-secondary: #aab9a6;       /* Gris verdoso claro */
+    --border-color: #2d4b35;         /* Verde profundo */
+    --card-bg: #162c22;              /* Fondo de tarjetas verde oscuro */
+    --success-color: #6ec490;        /* Verde éxito */
 }
 
 /* Reset y estilos generales */
@@ -29,11 +29,11 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, var(--secondary-color) 0%, #0a0f1a 100%);
+    background: linear-gradient(135deg, var(--secondary-color) 0%, #0b1b13 100%);
     padding: 60px 20px;
     text-align: center;
     border-bottom: 3px solid var(--accent-color);
-    box-shadow: 0 4px 15px rgba(0, 212, 170, 0.2);
+    box-shadow: 0 4px 15px rgba(103, 193, 139, 0.22);
 }
 
 .header-content h1 {
@@ -80,7 +80,7 @@ header {
 .search-box:focus {
     outline: none;
     border-color: var(--accent-color);
-    box-shadow: 0 0 10px rgba(0, 212, 170, 0.3);
+    box-shadow: 0 0 10px rgba(103, 193, 139, 0.3);
 }
 
 .search-box::placeholder {
@@ -102,7 +102,7 @@ header {
 .reset-btn:hover {
     background-color: var(--accent-hover);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 212, 170, 0.3);
+    box-shadow: 0 4px 12px rgba(103, 193, 139, 0.3);
 }
 
 /* Galería */
@@ -128,7 +128,7 @@ header {
 .card:hover {
     transform: translateY(-8px);
     border-color: var(--accent-color);
-    box-shadow: 0 8px 25px rgba(0, 212, 170, 0.3);
+    box-shadow: 0 8px 25px rgba(103, 193, 139, 0.3);
 }
 
 .card-image {
@@ -250,7 +250,7 @@ header {
     max-width: 900px;
     max-height: 80vh;
     overflow-y: auto;
-    box-shadow: 0 0 30px rgba(0, 212, 170, 0.5);
+    box-shadow: 0 0 30px rgba(103, 193, 139, 0.35);
 }
 
 .modal-body {
