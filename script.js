@@ -58,39 +58,9 @@ function renderGallery() {
                 <div class="card-title">${shirt.team}</div>
                 <div class="card-details">
                     <div class="card-detail">
-                        <span class="card-label">Marca:</span>
-                        <span class="card-value">${shirt.brand}</span>
-                    </div>
-                    <div class="card-detail">
                         <span class="card-label">Temporada:</span>
                         <span class="card-value">${shirt.season}</span>
                     </div>
-                    ${shirt.country && shirt.country.trim() !== '' ? `
-                    <div class="card-detail">
-                        <span class="card-label">País:</span>
-                        <span class="card-value">${shirt.country}</span>
-                    </div>
-                    ` : ''}
-                    <div class="card-detail">
-                        <span class="card-label">Equipación:</span>
-                        <span class="card-value">${shirt.kit}</span>
-                    </div>
-                    <div class="card-detail">
-                        <span class="card-label">Talla:</span>
-                        <span class="card-value">${shirt.size}</span>
-                    </div>
-                    ${shirt.number !== 0 ? `
-                    <div class="card-detail">
-                        <span class="card-label">Número:</span>
-                        <span class="card-value">${shirt.number}</span>
-                    </div>
-                    ` : ''}
-                    ${shirt.playerName ? `
-                    <div class="card-detail">
-                        <span class="card-label">Jugador:</span>
-                        <span class="card-value">${shirt.playerName}</span>
-                    </div>
-                    ` : ''}
                 </div>
                 <div class="card-footer">
                     <button class="view-btn">Ver detalles</button>
